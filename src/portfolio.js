@@ -7,136 +7,75 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hi! its Abdullah",
-  logo_name: "Abdullah Chaudhary",
+  title: "Hi! I'm Asadullah",
+  logo_name: "Asadullah Shahbaz",
   nickname: "",
   subTitle:
-    "A full stack developer (MERN / MEVN) 💻 - A Community Builder 👨‍🏫 - Public Speaker 🎤",
-  resumeLink:
-    "https://drive.google.com/file/d/1bU2Ifkn877o9jP8qEO2AvsWTXe3oBWr_/view?usp=sharing",
-  portfolio_repository: "https://github.com/abdullah-ch/devportfolio",
+    "Software Engineer specializing in Backend and Full-Stack Development with 1.5 years of experience in Node.js, Express.js, TypeScript, and MongoDB 💻🚀",
+  resumeLink: "https://asadsdev.vercel.app",
+  portfolio_repository: "https://github.com/asadshzdev",
 };
 
 const socialMediaLinks = [
   {
-    name: "Stackoverflow",
-    link: "https://stackoverflow.com/users/13708712/abdullah-ch",
-    fontAwesomeIcon: "fa-stack-overflow", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#F48024", // Reference https://simpleicons.org/?q=github
-  },
-  {
     name: "Github",
-    link: "https://github.com/abdullah-ch",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    link: "https://github.com/asadshzdev",
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/abdullah-ch/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UCNK0ZGO-8mnCGhtjUmFHyJg",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+    link: "https://www.linkedin.com/in/asadullah-shahbaz",
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#0077B5",
   },
   {
     name: "Gmail",
-    link: "mailto:abdullahchaudharry@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    link: "mailto:asadshzdev@gmail.com",
+    fontAwesomeIcon: "fa-google",
+    backgroundColor: "#D14836",
   },
   {
-    name: "Twitter",
-    link: "https://twitter.com/MAbdullahCh10",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/mrabdullahch/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "Portfolio",
+    link: "https://asadsdev.vercel.app",
+    fontAwesomeIcon: "fa-globe",
+    backgroundColor: "#4F46E5",
   },
 ];
 const socialMediaLinksHome = [...socialMediaLinks];
 
 const skills = {
   data: [
-    // {
-    //   title: "Data Science & AI",
-    //   fileName: "DataScienceImg",
-    //   skills: [
-    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-    //     "⚡ Experience of working with Computer Vision and NLP projects",
-    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Tensorflow",
-    //       fontAwesomeClassname: "logos-tensorflow",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Keras",
-    //       fontAwesomeClassname: "simple-icons:keras",
-    //       style: {
-    //         backgroundColor: "white",
-    //         color: "#D00000",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PyTorch",
-    //       fontAwesomeClassname: "logos-pytorch",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Python",
-    //       fontAwesomeClassname: "ion-logo-python",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //         color: "#3776AB",
-    //       },
-    //     },
-    //   ],
-    // },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Proficient in full-stack web development with a focus on responsive web design using React JS, HTML/CSS and cool UI Libraries",
-        "⚡ Expertise in developing Single Page Rendering applications using Vue JS, React JS and Next JS with Design Patterns",
-        "⚡ Demonstrated ability in creating optimized application backends using Node JS, Express JS, and Nest Js.",
-        "⚡ Experienced in creating REST APIs using Best Practices",
+        "⚡ Building and maintaining scalable backend services and REST APIs using Node.js, TypeScript, Express.js, and Microservices",
+        "⚡ Developing responsive and intuitive frontend interfaces using React.js, Next.js, TypeScript, and modern CSS/Tailwind",
+        "⚡ Designing and optimizing MongoDB schemas and Redis caching layers for high performance and reliable persistence",
+        "⚡ Implementing background job queues with BullMQ, event-driven RabbitMQ architectures, and seamless third-party integrations",
       ],
 
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
-            color: "#E34F26",
+            color: "#339933",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#1572B6",
+            color: "#3178C6",
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "ExpressJS",
+          fontAwesomeClassname: "simple-icons:express",
           style: {
-            color: "#CC6699",
+            color: "#000000",
           },
         },
         {
@@ -148,6 +87,20 @@ const skills = {
           },
         },
         {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style: {
+            color: "#DC382D",
+          },
+        },
+        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
@@ -155,94 +108,50 @@ const skills = {
           },
         },
         {
-          skillName: "mongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "RabbitMQ",
+          fontAwesomeClassname: "simple-icons:rabbitmq",
           style: {
-            color: "#13AA52",
+            color: "#FF6600",
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "Jest",
+          fontAwesomeClassname: "simple-icons:jest",
           style: {
-            color: "#339933",
+            color: "#C21325",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
           style: {
-            color: "#CB3837",
+            color: "#FF6C37",
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
           style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "black",
+            color: "#1488C6",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud & AI Solutions",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multi-cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Routing DNS records across different websites with secure SSL certificates",
-        "⚡ Enabling secure connection with IP access restrictions",
-        "⚡ Storing data over uniquely modelled bucket lists from backend",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Architecting cloud deployments, serverless functions, and containerized microservices using AWS, Docker, and Vercel",
+        "⚡ Integrating Gemini AI and OpenAI models for context-aware automation, conversational intelligence, and document analytics",
+        "⚡ Building automated multi-tenant workflow pipelines connecting Stripe, WhatsApp Business, Google Sheets, Notion, and Airtable",
+        "⚡ Implementing resilient CI/CD delivery pipelines, environment observability, and secure API gateways",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
           },
         },
         {
@@ -253,59 +162,106 @@ const skills = {
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "OpenAI",
+          fontAwesomeClassname: "simple-icons:openai",
           style: {
-            color: "#326CE5",
+            color: "#412991",
           },
         },
         {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
+          skillName: "Google Cloud",
+          fontAwesomeClassname: "simple-icons:googlecloud",
           style: {
-            color: "#8BA8B9",
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Vercel",
+          fontAwesomeClassname: "simple-icons:vercel",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#F05032",
+          },
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "#181717",
+          },
+        },
+        {
+          skillName: "Stripe",
+          fontAwesomeClassname: "simple-icons:stripe",
+          style: {
+            color: "#008CDD",
+          },
+        },
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
+          style: {
+            color: "#FF6C37",
           },
         },
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Cross-Platform & Desktop Engineering",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-        "⚡ Enabling engaging user experience for generating leads",
+        "⚡ Engineering cross-platform desktop applications using Electron, TypeScript, and modern desktop APIs",
+        "⚡ Designing monorepo architectures with shared core packages, developer CLI tools, and automated build pipelines",
+        "⚡ Building real-time file synchronization engines with workspace conflict resolution and network transfer monitoring",
+        "⚡ Configuring reverse proxies, self-hosted web servers with Caddy, and cross-platform native system integrations",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Electron",
+          fontAwesomeClassname: "simple-icons:electron",
           style: {
-            color: "#FF2BC2",
+            color: "#47848F",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
           style: {
-            color: "#F24E1E",
+            color: "#FCC624",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Caddy",
+          fontAwesomeClassname: "simple-icons:caddy",
           style: {
-            color: "#FF7C00",
+            color: "#22B573",
           },
         },
         {
-          skillName: "Adobe Photoshop",
-          fontAwesomeClassname: "simple-icons:adobephotoshop",
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
           style: {
-            backgroundColor: "#31A8FF",
-            borderRadius: "9px",
-            padding: "1px 2px",
-            color: "#001E36",
+            color: "#E10098",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Bash",
+          fontAwesomeClassname: "simple-icons:gnubash",
+          style: {
+            color: "#4EAA25",
           },
         },
       ],
@@ -317,45 +273,28 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "Coursera",
-      iconifyClassname: "simple-icons:coursera",
+      siteName: "GitHub",
+      iconifyClassname: "simple-icons:github",
       style: {
-        color: "#3A67AE",
+        color: "#181717",
       },
-      profileLink: "",
+      profileLink: "https://github.com/asadshzdev",
     },
     {
-      siteName: "Udemy",
-      iconifyClassname: "simple-icons:udemy",
+      siteName: "LinkedIn",
+      iconifyClassname: "simple-icons:linkedin",
       style: {
-        color: "#E65050",
+        color: "#0077B5",
       },
-      profileLink: "",
+      profileLink: "https://www.linkedin.com/in/asadullah-shahbaz",
     },
     {
-      siteName: "AWS",
-      iconifyClassname: "logos:aws",
+      siteName: "Portfolio",
+      iconifyClassname: "simple-icons:vercel",
       style: {
-        color: "#1F8ACB",
+        color: "#000000",
       },
-      profileLink: "#",
-    },
-    {
-      siteName: "Qwiklabs",
-      iconifyClassname: "simple-icons:qwiklabs",
-      style: {
-        color: "#EDC70E",
-      },
-      profileLink:
-        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
-    },
-    {
-      siteName: "Microsoft",
-      iconifyClassname: "logos:microsoft-windows",
-      style: {
-        color: "#fda",
-      },
-      profileLink: "https://docs.microsoft.com/en-us/users/muhammadAbdullah/",
+      profileLink: "https://asadsdev.vercel.app",
     },
   ],
 };
@@ -363,31 +302,17 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "National University of Sciences and Technology, Islamabad",
-      subtitle: "Bachelor's in Computer Sciences",
+      title: "National College of Business Administration & Economics",
+      subtitle: "BS Computer Science",
       logo_path: "nust-logo.png",
-      alt_name: "NUST - Islamabad",
-      duration: "2018 - Present",
+      alt_name: "NCBA&E",
+      duration: "Expected 2028",
       descriptions: [
-        "⚡ Gained deep insights of fundamental software engineering courses like DS, Algorithms, DBMS, OS, Advanced Programming, Artificial Intelligence etc.",
-        "⚡ The transparent methodology of providing diversity and building confidence by NUST has helped to develop me as a person not to forget mentioning the community bonding techniques that talks about growth",
-        "⚡ Apart from this, I have done courses on MERN Stack Development, Cloud Computing, Data Science, and Managing successful Start-ups",
-        "⚡ My favorite co-curricular hobby has been to manage big tech communities since I have represented NUST as an MLSA, Google DSC Lead and AWS Educate Cloud Ambassador simultaneously",
+        "⚡ Pursuing Bachelor of Science in Computer Science with a strong focus on Software Engineering, Data Structures, Algorithms, and Distributed Systems.",
+        "⚡ Leading university project teams by coordinating technical tasks, responsibilities, and sprint timelines from requirements analysis through final delivery.",
+        "⚡ Guiding teammates through technical problem-solving, Git/GitHub workflows, and architectural implementation decisions.",
       ],
-      website_link: "https://nust.edu.pk/",
-    },
-    {
-      title: "Hamza Army Public School and College, Rawalpindi",
-      subtitle: "Intermediate and Primary",
-      logo_path: "haps-logo.svg",
-      alt_name: "HAPSAC",
-      duration: "2006 - 2018",
-      descriptions: [
-        "⚡ Shortlisted as House Captain for school disciplines for two times in a row",
-        "⚡ Swiftly conducted sports and other extra-curricular events in college",
-        "⚡ Was awarded as 'Pride of Hamza' which is the highest ranked award in the college in my final year",
-      ],
-      website_link: "http://www.hamza.edu.pk/",
+      website_link: "#",
     },
   ],
 };
@@ -395,177 +320,12 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Real-World problem solving and innovation",
-      subtitle: "- Microsoft",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1zODqrRzxxpqLr9tA46TM4j9-4yOcMEOh/view?usp=sharing",
-      alt_name: "Microsoft",
-      color_code: "#E48564",
-    },
-    {
-      title: "Managing the Company of the Future",
-      subtitle: "- Prof. Julian Birkinshow",
+      title: "Best Intern Award",
+      subtitle: "Developers Hub Corporation",
       logo_path: "uol-logo.png",
-      certificate_link:
-        "https://coursera.org/share/a04db611f13675addbc9ed77198d9528",
-      alt_name: "univeristy of London",
-      color_code: "#E9E9E9",
-    },
-    {
-      title: "Introduction to Serverless Deployment",
-      subtitle: "- AWS Training",
-      logo_path: "aws-logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1bJu0_lVEKHTASH-g02tNgwzz9F3_7FzS/view?usp=sharing",
-      alt_name: "AWS",
-      color_code: "#222E3C",
-    },
-    {
-      title: "Deep Dive into DocumentDB",
-      subtitle: "- AWS Training",
-      logo_path: "aws-logo.png",
-      certificate_link:
-        "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=ImgRkZjt5EWH9MnPQ5dDow2",
-      alt_name: "AWS",
-      color_code: "#222E3C",
-    },
-
-    {
-      title: "Intro to ML: Language Processing",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
-      alt_name: "Qwiklabs",
-      color_code: "#8AB2F4",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.youracclaim.com/badges/053e0af0-c9be-4c47-8d1d-198ebe991e75/linked_in_profile",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Intro to ML: image Processing",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
-      alt_name: "Qwiklabs",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Kubernetes in Google Cloud",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
-      alt_name: "GCP",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Performance Assessment at UNICEF",
-      subtitle: "- UNICEF",
-      logo_path: "UNICEF-logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/11kl0jHW2IWN2O3Nq2lBJTd6cWgqI1eJl/view?usp=sharing",
-      alt_name: "UNICEF",
-      color_code: "#E9E9E7",
-    },
-    {
-      title: "Intermediate ML: TensorFlow on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
-      alt_name: "Qwiklabs",
-      color_code: "#6AC097",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
-      alt_name: "Google",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Amazon ElastiCache Service Primer",
-      subtitle: "- AWS Training",
-      logo_path: "aws-logo.png",
-      certificate_link:
-        "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=-onl1wc0xEC_ZGYcLyBBkw2",
-      alt_name: "AWS",
-      color_code: "#222E3C",
-    },
-    // {
-    //   title: "Cryptography",
-    //   subtitle: "- Saurabh Mukhopadhyay",
-    //   logo_path: "nptel_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-    //   alt_name: "NPTEL",
-    //   color_code: "#FFBB0099",
-    // },
-    {
-      title: "Machine Learning APIs",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Machine Learning in the Cloud with AWS Batch",
-      subtitle: "- AWS Training",
-      logo_path: "aws-logo.png",
-      certificate_link:
-        "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=VG0IjyOVVUigjOdlbsY4rw2",
-      alt_name: "AWS",
-      color_code: "#222E3C",
-    },
-    {
-      title: "BigQuery Basics for Data Analysts",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Amazon DynamoDB Service Primer",
-      subtitle: "- AWS Training",
-      logo_path: "aws-logo.png",
-      certificate_link:
-        "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=djjRwh9lakiGZ13wZ7h1dA2",
-      alt_name: "AWS",
-      color_code: "#222E3C",
-    },
-
-    {
-      title: "Data Science on Google Cloud",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "AWS Foundations: Machine Learning Basics",
-      subtitle: "- AWS Training",
-      logo_path: "aws-logo.png",
-      certificate_link:
-        "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=yDSgbKsl_kqxW_Pxq2LVEQ2",
-      alt_name: "AWS",
-      color_code: "#222E3C",
+      certificate_link: "https://www.linkedin.com/in/asadullah-shahbaz",
+      alt_name: "Developers Hub Corporation",
+      color_code: "#4F46E5",
     },
   ],
 };
@@ -573,178 +333,119 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work and Volunteership",
+  subtitle: "Professional Work & Leadership",
   description:
-    "I have worked with evolving Start-ups as well as some well-established companies as a Full Stack JavaScript Developer. I am one of the top 10 percent Software Engineers on Stackoverflow and my questions and answers have helped more than 6 million Developers all around the world !",
+    "Software Engineer with 1.5 years of experience specializing in Backend and Full-Stack Development, building scalable APIs, event-driven microservices, distributed queues, and modern web applications.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Work Experience",
       experiences: [
         {
-          title: "Senior Software Engineer",
-          company: "RANA",
-          company_url: "https://www.ranadev.io/",
-          logo_path: "abdullah-work/ranadev-logo.jpeg",
+          title: "Backend Software Engineer",
+          company: "Hashloops Technologies",
+          company_url: "#",
+          logo_path: "company-logos/hashloops_technologies_logo.webp",
           imageWrapperStyles: {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
           },
-          duration: "Mar 2024 - present",
-          location: "remote",
+          duration: "Sep 2026 - Present",
+          location: "Lahore, PK",
           description:
-            "Engineered  RESTful  APIs  for  a  FinTech  application  to  onboard  individual  and company  customers  with  third-party  banking  partners,  utilizing  Nest.js  and MongoDB for secure and seamless data exchange, reducing onboarding time by 40% and increasing completion rates by 30%. Intergrated  Know  Your  Customer  (KYC)  and  Customer  Due  Diligence  (CDD)services, helping global banking clients meet strict regulatory standards using NestJs, GraphQL and MongoDB. Developed and implemented unit tests using Jest in Nest Js, achieving over 90% testcoverage for new features, signicantly reducing production bugs, and enhancingapplication stability. Engineered  and  optimized  frontend  components  for  banking  applicationonboarding  using  Next.js,  integrating  GraphQL,  Redux  Toolkit,  and  React  HookForm.  Applied  Factory  and  Decorator  design  paerns  to  streamline  datamanagement and enhance code readibility and maintainability.",
-          color: "#0879bf",
+            "• Built and maintained scalable backend services using Node.js, TypeScript, and Express.js across multiple projects, delivering clean and reliable APIs within an agile team environment.\n• Developed background job systems with BullMQ and Redis to handle tasks like notifications, data processing, and report generation reliably at scale.\n• Designed and optimized MongoDB schemas with Mongoose, improving query performance by 30% through proper indexing, data structuring, and write optimization across different project databases.\n• Contributed to migrating backend services to AWS Lambda and AWS API Gateway, helping the team reduce infrastructure overhead and keep response times consistently under one second.\n• Tested and validated APIs across projects using Jest, Supertest, and Postman, making sure all endpoints were stable and production-ready before every release.\n• Identified and resolved backend bottlenecks across projects through profiling and query analysis, consistently improving response times and reducing server load.\n• Followed clean code practices and participated in peer code reviews on GitHub, helping maintain consistency and catching bugs early before they reached production.",
+          color: "#4F46E5",
         },
         {
-          title: "Software Engineer II",
-          company: "Dubizzle",
-          company_url: "https://www.dubizzle.com/",
-          logo_path: "abdullah-work/dubizzle-logo.png",
+          title: "Backend Developer Intern",
+          company: "Live Pakistan",
+          company_url: "#",
+          logo_path: "company-logos/Live_Pakistan_logo.webp",
           imageWrapperStyles: {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
           },
-          duration: "Jan 2023 - Mar 2024",
-          location: "Hybrid",
+          duration: "Aug 2026 - Sep 2026",
+          location: "Islamabad, PK",
           description:
-            "Designed and developed headless reusable components, decoupling the UI and the logic layers for better code maintainability and flexibility using React JS and Next JS. Improved code quality and maintainability by conducting component code refactoring and converting to TypeScript. Collaborated with cross-functional teams to develop effective software solutions, utilizing communication and problem-solving skills. Translated stakeholder requirements into actionable development plans for successful project outcomes ",
-          color: "#0879bf",
+            "• Developed backend services and RESTful APIs using Node.js, Express.js, and TypeScript for scalable web applications and SaaS platforms.\n• Designed and implemented modular backend architectures, authentication flows, business logic, validation, error handling, and third-party integrations.\n• Worked with MongoDB and Redis for data persistence, caching, session management, and performance optimization.\n• Built webhook-driven and event-based workflows, including asynchronous processing and reliable service communication.\n• Integrated external services such as Stripe, Gemini API, WhatsApp, Google Sheets, Notion, and Airtable into backend systems.\n• Implemented multi-tenant functionality, role-based access controls, idempotent transaction handling, and secure administrative operations.\n• Used Git, GitHub, Postman, Docker, and deployment platforms to support development, testing, and production workflows.",
+          color: "#0E6BA8",
         },
         {
-          title: "Full Stack Software Engineer (MERN/MEVN)",
-          company: "Trade Hat, USA",
-          company_url: "https://app.quantbotics.com/",
-          logo_path: "abdullah-work/tradehat.svg",
+          title: "Frontend Developer Intern",
+          company: "Developers Hub Corporation",
+          company_url: "#",
+          logo_path: "company-logos/developershub-icon-black.webp",
           imageWrapperStyles: {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
           },
-          duration: "Sep 2021 - Oct 2023",
-          location: "Remote Work",
+          duration: "Jan 2026 - June 2026",
+          location: "Islamabad, PK",
           description:
-            "Optimized Webapp's bundle size by 15% through lazy loading, purging CSS, and migrating to lightweight libraries. Improved API security by implementing Refresh Token Rotation based Authentication with unique refresh tokens for each session using Node JS. Designed and implemented the mechanism, conducted thorough testing, and reduced the risk of data breaches. Designed and built a scalable WebSocket server with Node.js and the ws library, integrated with RabbitMQ for streaming real-time tickers' information and notifications.",
-          color: "#0879bf",
+            "• Developed responsive React 18 + TypeScript applications using Tailwind CSS and reusable components.\n• Integrated REST APIs, improved frontend workflows, and collaborated through Git/GitHub.\n• Received Best Intern Award for technical performance.",
+          color: "#10B981",
         },
-
         {
-          title: "Full Stack Software Engineer (MERN)",
-          company: "BigOSoft",
-          company_url: "https://bigosoft.us/",
-          logo_path: "abdullah-work/bigosoft-black.png",
-          duration: "April 2020 - Sep 2021",
-          location: "Remote Work",
+          title: "Onboarding Research Manager",
+          company: "Insite Life",
+          company_url: "#",
+          logo_path: "company-logos/insite.webp",
+          duration: "Jan 2026 - Present",
+          location: "London, England, UK",
           imageWrapperStyles: {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
           },
           description:
-            "Built reusable React components with decoupled logic and UI layers using Hooks, improving code maintainability and development efficiency. Contributed to React-based POS and website front-end development using TypeScript and Material UI,delivering high-quality, responsive interfaces through collaboration with cross-functional teams. Created efficient and scalable RESTful APIs to support seamless communication between systems, ensuring productivity and minimizing downtime",
-          color: "#0879bf",
+            "• Lead onboarding research to identify user behavior, friction points, and activation opportunities.\n• Collaborate with Product, UX, Engineering, and Marketing to turn research into product improvements.\n• Analyze user feedback and onboarding experiments to improve user experience and engagement.",
+          color: "#F59E0B",
+        },
+        {
+          title: "Product Management Intern",
+          company: "Insite Life",
+          company_url: "https://www.linkedin.com/in/asadullah-shahbaz/",
+          logo_path: "company-logos/insite.webp",
+          duration: "Oct 2025 - Jan 2026",
+          location: "London, England, UK",
+          imageWrapperStyles: {
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          },
+          description:
+            "• Collaborated with cross-functional teams to evaluate product features, user workflows, and overall platform usability.\n• Conducted product research and competitive analysis to support feature prioritization and roadmap planning.\n• Prepared technical documentation and product reports to communicate findings and recommendations effectively.\n• Contributed to early-stage product strategy by identifying opportunities to improve user experience and product adoption.\n• Gained practical experience in product development processes, agile collaboration, and software lifecycle management.",
+          color: "#E11D48",
         },
       ],
     },
-    // {
-    //   title: "Internships",
-    //   experiences: [
-    //     {
-    //       title: "Machine Learning Research Intern",
-    //       company: "ROMI Lab, SEECS",
-    //       company_url: "https://romi.seecs.nust.edu.pk/",
-    //       logo_path: "romi-logo.png",
-    //       duration: "April 2020 - September 2020",
-    //       location: "SEECS, NUST",
-    //       description:
-    //         "Worked on project of converting 2D image into 3D using the help of Machine Learning. The project covered two main aspects: (1) To enuemerate normal prediction of a 2D image. (2) Using ML techniques to draw coordinates on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution. The project had the following scope: (a) Object Visualization for Uban Cities. (b) Generating/evaluating building hypothesis",
-    //       color: "#ee3c26",
-    //     },
-    //     {
-    //       title: "Software Quality Assurance Intern",
-    //       company: "Afiniti",
-    //       company_url: "https://www.afiniti.com/",
-    //       logo_path: "afiniti-vector-logo.png",
-    //       duration: "August 2020 - September 2020",
-    //       location: "Work From Home",
-    //       description:
-    //         "Worked as a Software Quality Assurance Intern for an Enterprise software developed by Afiniti with a diverse group of 70+ students from multinational backgrounds. The work helped me build strong analytical approach. The agile feedbacks and suggestions improved the product to a greater extent. Ultimately, I gained keen knowledge of working in big corporates and been able to blend into their working environments.",
-    //       color: "#0071C5",
-    //     },
-    //     {
-    //       title: "Graphic Designer Intern",
-    //       company: "Vyro.ai",
-    //       company_url: "https://www.vyro.ai/",
-    //       logo_path: "vyro.ai.png",
-    //       duration: "Feb 2019 - Apr 2019",
-    //       location: "TIC, NUST",
-    //       description:
-    //         "Mainly aimed to create face models for a photo editing mobile app using AI. The face features were designed using photoshop and illustrator. Used scripting for automation of rendering. The automation reduced the office overhead and labour by 60%. The initial boost helped the app to attain 1M+ downloads in the play store within a year. So far Vyro has more than 4 apps in play store with approximately 32M+ downloads.",
-    //       color: "#0071C5",
-    //     },
-    //     {
-    //       title: "Digital Marketing Intern",
-    //       company: "Friends Corporation",
-    //       company_url: "https://www.friendshome.pk/",
-    //       logo_path: "friendshome.png",
-    //       duration: "Jun 2016 - Jul 2016",
-    //       location: "Murree Road, Rawalpindi",
-    //       description:
-    //         "Analyzed data from 25000+ monthly active users and used outputs to guide marketing and product strategies. Increased average online engagement time by 2x, 25% decrease in drop off rate, and 3x shares on social media.",
-    //       color: "#0071C5",
-    //     },
-    //   ],
-    // },
     {
-      title: "Volunteerships",
+      title: "Leadership & Activities",
       experiences: [
         {
-          title: "Microsoft Learn Student Ambassador",
-          company: "Microsoft",
-          company_url: "https://studentambassadors.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - present",
-          location: "ITU, Lahore",
-          description:
-            "Microsoft Student Ambassador is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops of GitHub and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Developer Student Club Lead - ITU",
-          company: "Google Developers",
-          company_url:
-            "https://dsc.community.dev/information-technology-university/",
+          title: "Technical Team Lead",
+          company: "University Projects",
+          company_url: "#",
           logo_path: "gdsc-itu.jpeg",
-          duration: "July 2020 - July 2021",
-          location: "ITU, Lahore",
+          duration: "2024 - Present",
+          location: "Lahore, PK",
           description:
-            "2nd ever lead from ITU and Pakistani DSC Chapter. Lead the club for one of the most prestigious universities in Pakistan. Conducted tonnes of events in order to make student the next big assests in the market. The program provides an ecosystem that encourages sharing of knowledge, learning and community building using the power of Google and its resources. Finally, it gives the exposure of mentoring people to become the next Google Developer Expert and preserving the chain.",
-          color: "#4285F4",
+            "• Lead university project teams by coordinating technical tasks, responsibilities, and timelines from requirements analysis through final implementation.\n• Guide teammates through technical problem-solving, Git/GitHub workflows, and implementation decisions while keeping projects aligned with requirements and deadlines.",
+          color: "#4F46E5",
         },
         {
-          title: "AWS Comunity Builder",
-          company: "AWS",
-          company_url:
-            "https://aws.amazon.com/developer/community/community-builders/",
-          logo_path: "awsblack.png",
-          duration: "Apr 2020 - May 2022",
-          location: "ITU, Lahore",
-          description:
-            "Enabling students to learn the cloud based cooporate technology usage using AWS. Hosted webinars based on AWS and cloud-based technologies,Conducted workshops and Community Day event powered by AWS in Pakistan.",
-          color: "#000000",
-        },
-
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
+          title: "Tech Researcher & Open Source Contributor",
+          company: "Independent Research",
+          company_url: "#",
           logo_path: "github_logo.png",
-          duration: "October 2020 - PRESENT",
-          location: "Work From Home",
+          duration: "Ongoing",
+          location: "Remote",
           description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like StudentCodeIn, Hacktoberfest, flutter mobile apps, and MERN applications. These contributions include bug fixes, feature requests and formulating proper documentation for a project.",
+            "• Continuously research and experiment with emerging technologies, developer tools, AI frameworks, and modern engineering practices, applying relevant tools to personal and academic projects.",
           color: "#181717",
         },
       ],
@@ -756,39 +457,17 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects involve use of various tech architectures and tools including ReactJs, NextJs, Redux, Hooks, Nodejs, ExpressJs, MongoDB, HTML/CSS and Vue JS. My best experience is to create Full stack applications and deploy them using an efficient cloud infrastructure.",
+    "A selection of full-stack, distributed backend systems, microservices, and AI-powered platforms engineered with modern scalable architectures.",
   avatar_image_path: "projects_image.svg",
 };
 
 const blogs = {
   title: "Blogs",
   subtitle:
-    "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character. This part is coming soon feel free to reach out again for follow up 😉",
+    "Articles and insights on backend engineering, distributed systems, API performance, and modern web development. Coming soon!",
   link: "/",
   avatar_image_path: "blogs_image.svg",
-  section: [
-    {
-      title: "My first ever blog",
-      date: "20-09-2020",
-      text: "abc",
-      image:
-        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
-    },
-    {
-      title: "My second ever blog",
-      date: "20-09-2020",
-      text: "abc",
-      image:
-        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
-    },
-    {
-      title: "My third ever blog",
-      date: "20-09-2020",
-      text: "abc",
-      image:
-        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
-    },
-  ],
+  section: [],
 };
 
 // Contact Page
@@ -797,17 +476,17 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "address_image.svg",
     description:
-      "I am available on almost every social media. And here is the fun part, I'm very responsive, so feel free to reach me out if you want a Freelance work to be done or need a speaker for your tech talk. You can hit me up and have a Tech Savvy advice too! I can help you with MERN / MEVN Stack and Opensource Development.",
+      "I am actively seeking full-time backend-focused software engineering roles. Feel free to reach out for inquiries, collaboration, or opportunities in Node.js, Express, TypeScript, and distributed systems.",
   },
   addressSection: {
     title: "Address",
-    subtitle: "B/1325, Satellite Town, Rawalpindi, Punjab, Pakistan",
+    subtitle: "Lahore, Punjab, Pakistan",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://maps.google.com/?q=Lahore,Pakistan",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+92 3124108473",
+    subtitle: "+92 (326) 016-1968",
   },
 };
 

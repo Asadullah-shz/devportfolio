@@ -11,28 +11,26 @@ class Home extends Component {
     return (
       <div>
         <Helmet>
-          ‍<title>Abdullah Ch </title>‍
+          <title>Asadullah Shahbaz | Backend Software Engineer</title>
           <meta
             name="description"
-            content="Abdullah Ch (therealmvp) is a Full Stack Developer, Public Speaker, and a student mentor. Abdullah is also an AWS Educate Cloud Ambassador, Microsoft Learn Student Ambassador and former Google Developers Student Club Lead at NUST"
+            content="Asadullah Shahbaz is a Software Engineer specializing in Backend and Full-Stack Development with experience in Node.js, Express.js, TypeScript, and MongoDB."
           />
-          <meta name="twitter:site" content="@MAbdullahCh10" />{" "}
-          <meta name="twitter:creator" content="@MAbdullahCh10" />{" "}
-          <meta name="twitter:title" content="Resume " />{" "}
-          <meta property="twitter:url" content="https://abdullahch.dev/home" />
+          <meta name="twitter:title" content="Asadullah Shahbaz" />
+          <meta property="twitter:url" content="https://asadsdev.vercel.app" />
           <meta
             name="twitter:description"
-            content="Abdullah Ch (therealmvp) is a Full Stack Developer, Public Speaker, and a student mentor. Abdullah is also an AWS Educate Cloud Ambassador, Microsoft Learn Student Ambassador and former Google Developers Student Club Lead at NUST"
+            content="Asadullah Shahbaz is a Software Engineer specializing in Backend and Full-Stack Development with experience in Node.js, Express.js, TypeScript, and MongoDB."
           />
-          <meta property="og:title" content="Abdullah Ch " />{" "}
+          <meta property="og:title" content="Asadullah Shahbaz" />
           <meta
             property="og:description"
-            content="Abdullah Ch (therealmvp) is a Full Stack Developer, Public Speaker, and a student mentor. Abdullah is also an AWS Educate Cloud Ambassador, Microsoft Learn Student Ambassador and former Google Developers Student Club Lead at NUST"
+            content="Asadullah Shahbaz is a Software Engineer specializing in Backend and Full-Stack Development with experience in Node.js, Express.js, TypeScript, and MongoDB."
           />
-          <meta property="og:url" content="https://abdullahch.dev/" />
-          <meta property="og:site_name" content="Abdullah Ch " />
+          <meta property="og:url" content="https://asadsdev.vercel.app" />
+          <meta property="og:site_name" content="Asadullah Shahbaz" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:type" content="article" />
+          <meta property="og:type" content="website" />
         </Helmet>
         <Header theme={this.props.theme} />
         <Greeting theme={this.props.theme} />

@@ -12,15 +12,15 @@ export const blackTheme = {
 };
 
 export const lightTheme = {
-  body: "#F5F5F5",
-  text: "#333244",
-  highlight: "#ffffff",
-  dark: "#000000",
-  secondaryText: "#5A6377",
-  imageHighlight: "#fca311",
-  compImgHighlight: "#E6E6E6",
-  jacketColor: "#8d99ae",
-  headerColor: "#fca31177",
+  body: "#F8FAFC",
+  text: "#0F172A",
+  highlight: "#FFFFFF",
+  dark: "#0F172A",
+  secondaryText: "#475569",
+  imageHighlight: "#4F46E5",
+  compImgHighlight: "#E2E8F0",
+  jacketColor: "#64748B",
+  headerColor: "#EEF2F6",
 };
 
 export const blueTheme = {

@@ -1,8 +1,10 @@
 .footer-text {
   text-align: center;
-  /* color: #868e96; */
   font-weight: inherit;
   font-family: "Google Sans Regular";
+  font-size: 16px;
+  margin: 0;
+  padding: 24px 20px;
 }
 
 .footer-div {
@@ -10,11 +12,11 @@
   margin-bottom: 0;
 }
 
-.footer-text a:hover {
-  color: #ee6950 !important;
+.footer-text a {
+  transition: color 0.2s ease, opacity 0.2s ease;
 }
 
-.footer-text {
-  margin: 0;
-  padding: 30px 30px 20px 30px;
+.footer-text a:hover {
+  color: #ee6950 !important;
+  opacity: 0.9;
 }

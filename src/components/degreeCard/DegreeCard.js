@@ -8,7 +8,7 @@ class DegreeCard extends Component {
     const theme = this.props.theme;
     return (
       <div className="degree-card">
-        <Flip left duration={2000}>
+        <Flip left duration={800}>
           <div className="card-img">
             <img
               style={{

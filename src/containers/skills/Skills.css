@@ -1,46 +1,108 @@
 .skills-main-div {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .skills-header {
-  font-size: 60px;
+  font-size: 42px;
   line-height: normal;
   font-family: "Google Sans Regular";
   text-align: center;
+  margin-bottom: 12px;
 }
 
 .skills-description {
-  font-size: 26px;
-  line-height: normal;
+  font-size: 20px;
+  line-height: 30px;
   font-family: "Google Sans Regular";
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto 2.5rem auto;
 }
 
 .skills-text {
-  font-size: 20px;
+  font-size: 17px;
+  line-height: 26px;
 }
 
 .skills-text-div {
-  margin-left: 50px;
+  margin-left: 40px;
   font-family: "Google Sans Regular";
 }
 
 .skills-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.skills-image-div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: radial-gradient(
+    circle at center,
+    rgba(79, 70, 229, 0.05) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  border-radius: 24px;
+}
+
+.skills-image-div::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  background: radial-gradient(
+    circle,
+    rgba(99, 102, 241, 0.12) 0%,
+    rgba(168, 85, 247, 0.06) 50%,
+    transparent 75%
+  );
+  filter: blur(40px);
+  z-index: 0;
+  pointer-events: none;
+  animation: pulseGlow 6s ease-in-out infinite alternate;
 }
 
 .skills-image-div > * {
-  max-width: 100%;
+  position: relative;
+  z-index: 1;
+  max-width: 92%;
   height: auto;
-  margin-top: 100px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(0 14px 28px rgba(15, 23, 42, 0.08));
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+}
+
+.skills-image-div:hover > * {
+  transform: translateY(-5px) scale(1.02);
+  filter: drop-shadow(0 20px 36px rgba(79, 70, 229, 0.14));
+}
+
+@keyframes pulseGlow {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
 }
 
 .skills-heading {
-  font-size: 56px;
+  font-size: 38px;
   font-weight: 400;
   font-family: "Google Sans Regular";
   line-height: normal;
+  margin-bottom: 15px;
 }
 
 /* Media Query */
@@ -51,16 +113,14 @@
   .skills-header {
     font-size: 50px;
   }
-  /* .skills-image-div > img {
-    margin-top: 0px;
-  } */
 }
+
 @media (max-width: 768px) {
   #skills.main {
     margin-top: 1rem;
   }
   .skills-heading {
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
   }
   .skills-header {
@@ -68,7 +128,8 @@
   }
 
   .skills-description {
-    font-size: 18px;
+    font-size: 17px;
+    padding: 0 10px;
   }
   .greeting-text-p {
     font-size: 16px;
@@ -76,23 +137,42 @@
   }
   .skills-main-div {
     flex-direction: column;
+    margin-bottom: 3.5rem;
   }
   .skills-text-div {
     margin-left: 0px;
-    margin: 20px;
+    margin: 15px;
   }
   .skills-text {
-    font-size: 16px;
+    font-size: 15.5px;
+    line-height: 25px;
   }
   .skills-text-subtitle {
     font-size: 16px;
     text-align: center;
   }
   .skills-image-div {
-    /* display: none; */
     order: 2;
+    width: 100%;
+    padding: 1.25rem 0.75rem;
+    margin-top: 10px;
+    background: linear-gradient(
+      180deg,
+      rgba(248, 250, 252, 0.8) 0%,
+      rgba(241, 245, 249, 0.6) 100%
+    );
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+  .skills-image-div::before {
+    width: 90%;
+    height: 90%;
+    filter: blur(25px);
   }
   .skills-image-div > * {
+    max-width: 95%;
     margin-top: 0px;
   }
 }

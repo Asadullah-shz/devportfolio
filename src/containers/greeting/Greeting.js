@@ -10,7 +10,7 @@ export default function Greeting(props) {
   const theme = props.theme;
 
   return (
-    <Fade bottom duration={2000} distance="40px">
+    <Fade bottom duration={800} distance="24px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
@@ -53,7 +53,7 @@ export default function Greeting(props) {
             <img
               className="myimage"
               src={require("../../assests/images/abdullah.jpg")}
-              alt="Abdullah Ch.img"
+              alt="Asadullah Shahbaz"
             ></img>
           </div>
         </div>

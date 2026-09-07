@@ -12,10 +12,16 @@
   margin-right: 20px;
   margin-bottom: 20px;
   font-family: "Google Sans Regular";
+  transition: transform 0.2s ease;
+}
+
+.competitive-sites-inline:hover {
+  transform: translateY(-4px) scale(1.12);
 }
 
 .competitive-sites-inline > i {
   color: #868e96;
+  transition: color 0.2s ease;
 }
 
 .competitive-sites-inline > i:hover {

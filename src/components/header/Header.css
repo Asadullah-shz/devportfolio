@@ -1,83 +1,80 @@
-/* header */
-
 .active {
-  font-weight: bold;
+  font-weight: 700;
 }
+
 .header {
   display: block;
+  margin: 0 auto;
   max-width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
 }
 
 .header ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
+  margin: 0;
   overflow: hidden;
-  /* background-color: #fff; */
+  padding: 0;
 }
+
 .grey-color {
   color: #868e96;
 }
 
 .header li a {
   display: block;
-  padding: 20px 20px;
-  /* color: black; */
   text-decoration: none;
-}
-
-.header li a:hover,
-.header .menu-btn:hover {
-  /* background-color: #a6e1fa; */
-}
-
-.header li a {
-  color: #fff;
-
-  /* display: inline-block; */
-  /* padding: 0 20px 10px; */
-  margin: 0px 20px 0px 20px;
+  margin: 0 20px;
   padding: 15px 0 10px;
   position: relative;
+  font-family: "Google Sans Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  font-size: 16px;
+  transition: opacity 0.2s ease;
 }
+
 .header li a:after {
-  background: none repeat scroll 0 0 transparent;
+  background: #69687a;
   bottom: 0;
   content: "";
   display: block;
   height: 3px;
   left: 50%;
   position: absolute;
-  background: #69687a;
   transition: width 0.2s ease 0s, left 0.2s ease 0s;
   width: 0;
 }
-.header li a:hover:after {
-  width: 100%;
+
+.header li a:hover:after,
+.header li a.active:after {
   left: 0;
+  width: 100%;
 }
 
 .header .logo {
   display: block;
   float: left;
   font-size: 1.5em;
+  line-height: normal;
+  margin-top: 10px;
   text-decoration: underline;
   text-decoration-color: #551a8b;
-  margin-top: 10px;
-  line-height: normal;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
 }
+
+.header .logo:hover {
+  opacity: 0.85;
+}
+
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: "Agustina Regular", cursive;
   font-weight: inherit;
   padding: 0 10px;
 }
 
-/* menu */
-
 .menu {
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
 }
 
 .header .menu {
@@ -86,14 +83,13 @@
   transition: max-height 0.2s ease-out;
 }
 
-/* menu icon */
-
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
+  display: block;
   float: right;
   padding: 28px 20px;
   position: relative;
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -125,8 +121,6 @@
   top: -5px;
 }
 
-/* menu btn */
-
 .header .menu-btn {
   display: none;
 }
@@ -141,10 +135,12 @@
 
 .header .menu-btn:checked ~ .menu-icon .navicon:before {
   transform: rotate(-45deg);
+  top: 0;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon:after {
   transform: rotate(45deg);
+  top: 0;
 }
 
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
@@ -152,19 +148,19 @@
   top: 0;
 }
 
-/* 48em = 768px */
 @media (max-width: 1083px) {
   .header .logo {
     font-size: 1.2rem;
   }
 }
+
 @media (min-width: 48em) {
   .header li {
     float: left;
   }
   .header {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
   }
   .header .menu {
@@ -174,6 +170,7 @@
     display: none;
   }
 }
+
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
@@ -182,10 +179,9 @@
 
 @media (max-width: 768px) {
   .header li a {
-    max-width: 100%;
     display: inline-block;
-
-    padding: 5px 0 5px;
     margin: 0 20px 10px;
+    max-width: 100%;
+    padding: 5px 0;
   }
 }

@@ -18,31 +18,32 @@ class Contact extends Component {
     return (
       <div className="contact-main">
         <Helmet>
-          ‍<title>Contact </title>‍
+          <title>Contact | Asadullah Shahbaz</title>
           <meta
             name="description"
-            content="Contact Abdullah Ch aka TheRealMVP today"
+            content="Get in touch with Asadullah Shahbaz, Backend Software Engineer specializing in Node.js, Express, TypeScript, and MongoDB."
           />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@MAbdullahCh10" />{" "}
-          <meta name="twitter:creator" content="@MAbdullahCh10" />{" "}
-          <meta name="twitter:title" content="Contact " />{" "}
+          <meta name="twitter:title" content="Contact | Asadullah Shahbaz" />
           <meta
             property="twitter:url"
-            content="https://abdullahch.dev/contact"
+            content="https://asadsdev.vercel.app/contact"
           />
           <meta
             name="twitter:description"
-            content="Contact Abdullah Ch aka TheRealMVP today"
-          />{" "}
-          <meta property="og:title" content="Contact " />{" "}
+            content="Get in touch with Asadullah Shahbaz, Backend Software Engineer specializing in Node.js, Express, TypeScript, and MongoDB."
+          />
+          <meta property="og:title" content="Contact | Asadullah Shahbaz" />
           <meta
             property="og:description"
-            content="Contact Abdullah Ch aka TheRealMVP today"
+            content="Get in touch with Asadullah Shahbaz, Backend Software Engineer specializing in Node.js, Express, TypeScript, and MongoDB."
           />
-          <meta property="og:url" content="https://abdullahch.dev/contact" />
+          <meta
+            property="og:url"
+            content="https://asadsdev.vercel.app/contact"
+          />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:type" content="article" />
+          <meta property="og:type" content="website" />
         </Helmet>
         <Header theme={theme} />
         <div className="basic-contact">
@@ -75,7 +76,7 @@ class Contact extends Component {
                 <div className="resume-btn-div">
                   <Button
                     text="Reach me via email"
-                    href="mailto:abdullahchaudharry@gmail.com"
+                    href="mailto:asadshzdev@gmail.com"
                     theme={theme}
                   />
                 </div>

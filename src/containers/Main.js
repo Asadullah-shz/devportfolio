@@ -9,9 +9,9 @@ import Projects from "../pages/projects/Projects";
 import Blogs from "../pages/blogs/BlogsComponent";
 import Resume from "../pages/resume/ResumeComponent";
 import Error from "../pages/error/ErrorComponent";
+import Home from "../pages/home/HomeComponent";
 import { settings } from "../portfolio.js";
 import { Suspense } from "react";
-const Home = React.lazy(() => import("../pages/home/HomeComponent"));
 
 export default class Main extends React.PureComponent {
   render() {
@@ -19,10 +19,23 @@ export default class Main extends React.PureComponent {
       return (
         <Suspense
           fallback={
-            <div>
-              <img
-                src={require("../assests/images/infinity-gif.svg")}
-                alt="infinity and beyond..."
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                minHeight: "100vh",
+              }}
+            >
+              <div
+                style={{
+                  width: "38px",
+                  height: "38px",
+                  border: "3px solid #E2E8F0",
+                  borderTopColor: "#55198b",
+                  borderRadius: "50%",
+                  animation: "spin 0.8s linear infinite",
+                }}
               />
             </div>
           }
@@ -107,16 +120,25 @@ export default class Main extends React.PureComponent {
       return (
         <Suspense
           fallback={
-            <img
-              src={require("../assests/images/infinity-gif.svg")}
-              alt="infinity and beyond..."
+            <div
               style={{
-                display: "block",
-                marginLeft: "auto",
-                marginRight: "auto",
-                width: "50%",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                minHeight: "100vh",
               }}
-            />
+            >
+              <div
+                style={{
+                  width: "38px",
+                  height: "38px",
+                  border: "3px solid #E2E8F0",
+                  borderTopColor: "#55198b",
+                  borderRadius: "50%",
+                  animation: "spin 0.8s linear infinite",
+                }}
+              />
+            </div>
           }
         >
           <div>

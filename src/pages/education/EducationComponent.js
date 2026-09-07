@@ -17,30 +17,31 @@ class Education extends Component {
     return (
       <div className="education-main">
         <Helmet>
-          ‍<title>Education </title>‍
+          <title>Education | Asadullah Shahbaz</title>
           <meta
             name="description"
-            content="My education history has always been an entertaining one, here's what's more about it..."
+            content="Academic qualifications and degrees of Asadullah Shahbaz, studying BS Computer Science at NCBA&E."
           />
-          <meta name="twitter:site" content="@MAbdullahCh10" />{" "}
-          <meta name="twitter:creator" content="@MAbdullahCh10" />{" "}
-          <meta name="twitter:title" content="Education " />{" "}
+          <meta name="twitter:title" content="Education | Asadullah Shahbaz" />
           <meta
             property="twitter:url"
-            content="https://abdullahch.dev/education"
+            content="https://asadsdev.vercel.app/education"
           />
           <meta
             name="twitter:description"
-            content="My education history has always been an entertaining one, here's what's more about it..."
-          />{" "}
-          <meta property="og:title" content="Education " />{" "}
+            content="Academic qualifications and degrees of Asadullah Shahbaz, studying BS Computer Science at NCBA&E."
+          />
+          <meta property="og:title" content="Education | Asadullah Shahbaz" />
           <meta
             property="og:description"
-            content="My education history has always been an entertaining one, here's what's more about it..."
+            content="Academic qualifications and degrees of Asadullah Shahbaz, studying BS Computer Science at NCBA&E."
           />
-          <meta property="og:url" content="https://abdullahch.dev/education" />
+          <meta
+            property="og:url"
+            content="https://asadsdev.vercel.app/education"
+          />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:type" content="article" />
+          <meta property="og:type" content="website" />
         </Helmet>
         <Header theme={this.props.theme} />
         <div className="basic-education">

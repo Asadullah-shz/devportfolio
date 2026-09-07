@@ -1,67 +1,93 @@
 .main {
-  width: 100%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 4rem;
-  /* background: black!important; */
+  width: 90%;
+  max-width: 1200px;
+  padding: 0px 10px;
+  margin: 3rem auto 0 auto;
 }
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
+  max-width: 1200px;
+  padding: 0px 10px;
+  margin: 1.5rem auto 0 auto;
+}
+
+.greeting-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .myimage {
-  max-height: 500px;
-  width: 500px;
+  width: min(340px, 85vw);
+  height: min(340px, 85vw);
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 15%;
+  border: 5px solid #ffffff;
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.12),
+    0 20px 40px -10px rgba(85, 25, 139, 0.18),
+    0 0 0 1px rgba(226, 232, 240, 0.8);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  display: block;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+.myimage:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 16px 32px -4px rgba(15, 23, 42, 0.15),
+    0 24px 48px -8px rgba(85, 25, 139, 0.28), 0 0 0 4px rgba(199, 210, 254, 0.6);
 }
 
 .gretting-main {
-  width: 90%;
-  padding: 20px 10px;
+  width: 100%;
+  padding: 0;
   margin: 0px auto;
 }
 
 .greeting-main {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
+
 .button-greeting-div {
   display: flex;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .greeting-text {
-  margin-top: 80px;
-  font-size: 55px;
-  line-height: 1.1;
+  margin-top: 20px;
+  font-size: 44px;
+  line-height: 1.15;
   font-family: "Google Sans Regular";
   color: #133b4f;
 }
 
 .celeb {
-  margin-left: 35px;
-  /* margin-bottom: 5rem; */
-  font-size: 2rem;
+  margin-left: 20px;
+  font-size: 1.6rem;
 }
 
 .greeting-nickname {
-  font-size: 30px;
+  font-size: 24px;
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 32px;
   font-family: "Google Sans Regular";
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .greeting-image-div > * {
@@ -72,34 +98,34 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 38px;
   }
   .greeting-text-p {
-    font-size: 20px;
-    margin-right: 40px;
+    font-size: 18px;
+    margin-right: 20px;
   }
 }
 @media (max-width: 768px) {
   .button-greeting-div {
-    justify-content: space-around;
+    justify-content: center;
   }
   .greeting-text {
-    font-size: 30px;
-    margin-top: 0px;
+    font-size: 28px;
+    margin-top: 10px;
     text-align: center;
   }
   .greeting-nickname {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
   }
   .greeting-text-p {
-    font-size: 21px !important;
+    font-size: 18px !important;
     margin-right: 0px;
-    line-height: normal;
+    line-height: 26px;
     text-align: center;
   }
   .greet-main {
-    margin-top: 0;
+    margin-top: 1rem;
   }
 
   .greeting-main {
@@ -114,14 +140,22 @@
     display: flex;
     justify-content: center;
   }
+  .greeting-image-div {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
   .greeting-image-div > * {
-    max-width: 80%;
-    height: auto;
+    max-width: 100%;
     margin: auto;
     order: 1;
   }
 
   .myimage {
+    width: min(240px, 65vw);
+    height: min(240px, 65vw);
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
     margin: auto;
     display: block;
   }

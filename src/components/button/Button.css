@@ -1,27 +1,35 @@
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
-  color: white;
+  background-color: #4f46e5;
+  border: solid 1px #4f46e5;
+  color: #ffffff;
   font-weight: 500;
   line-height: 1.1;
   width: max-content;
-  padding: 13px 22px;
+  padding: 10px 22px;
   margin-right: 0px;
-  /* text-transform: uppercase; */
-  border-radius: 6px;
+  border-radius: 8px;
   text-align: center;
   text-decoration: none;
   font-family: "Google Sans Regular";
   display: block;
-  margin-top: 20px;
-  font-size: 18px;
+  margin-top: 15px;
+  font-size: 16px;
   cursor: pointer;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  position: relative;
 }
 .main-button:hover {
-  /* background-color: #ffffff; */
-  /* color: black; */
-  transition: ease-in 0.3s;
+  transform: translateY(-2px);
+  background-color: #4338ca;
+  border-color: #4338ca;
+  box-shadow: 0 6px 18px rgba(79, 70, 229, 0.28);
+}
+.main-button:active {
+  transform: translateY(0px);
+  box-shadow: 0 2px 6px rgba(79, 70, 229, 0.15);
 }
 .project-button {
   display: flex;

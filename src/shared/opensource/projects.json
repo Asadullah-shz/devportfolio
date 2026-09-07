@@ -1,156 +1,188 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Refresh Token Rotation",
-      "createdAt": "Feb 2023",
-      "url": "https://github.com/abdullah-ch/refresh-token-rotation",
-      "description": "This Repository implements Refresh Token Rotation Authentication System and Automatic Retry Mechanism of Failed APIs with Stale Access Tokens, using MERN (Mongo DB - Express - React - Node) Stack",
+      "id": "project-loopback",
+      "name": "Loopback Marketplace",
+      "createdAt": "2026-08-26",
+      "url": "https://github.com/Asadullah-shz/Loopback",
+      "description": "Feature-driven multi-role marketplace platform with escrow transactions via Stripe Connect, robust authentication, and comprehensive role-based authorization. Built with React, Vite, TypeScript, Express, Prisma, and Swagger UI.",
       "isFork": false,
       "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        },
         {
           "name": "React",
           "iconifyClass": "logos-react"
         },
         {
-          "name": "nodeJs",
-          "iconifyClass": "logos-nodejs"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
-      "name": "Web Socket Server",
-      "createdAt": "July 2020",
-      "url": "https://github.com/abdullah-ch/websockets-authentication-server",
-      "description": "This Repository implements an Authenticated Websocket Server built in Node Js along ws library and provide benefits like Heartbeat Monitoring of the Clients, Pinging Functionality and pruning dead clients",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "nodeJS",
-          "iconifyClass": "logos-nodejs"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
-      "name": "Anime Tracker",
-      "createdAt": "Jun 2021",
-      "url": "https://github.com/abdullah-ch/Anime-Tracker-Web-App",
-      "description": "Anime Tracker App keeps you updated with anime world. You can search for any anime and get the result in the form of CSS Cards, clicking them will redirect you to the searched anime info. It has three rows. First one host the anime list which are released or updated that day, meaning you'll know which anime has been recently released, it changes day to day, dynamically. Second row shows the anime which have the highest score depending on MAL(It is like imdb for anime). Last row maps the anime which will be released in future and they are sorted on the hype created by their fans :P. Clicking on any of the cards which show their Info ! ",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "React",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "nodeJs",
+          "name": "NodeJS",
           "iconifyClass": "logos-nodejs"
         },
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Prisma",
+          "iconifyClass": "logos-prisma"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Stripe",
+          "iconifyClass": "logos-stripe"
         }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyND30NjcyNzQ=",
-      "name": "Chai Khana",
-      "createdAt": "May 2021",
-      "url": "https://www.chaayekhana.com/",
-      "description": "Chai Khana is a Pakistani Restaurant, famous for the rich flavors of Indian and Pakistani cuisine",
+      "id": "project-pseudo-agency",
+      "name": "Software Agency Platform",
+      "createdAt": "2026-08-10",
+      "url": "https://github.com/Asadullah-shz/Software_Agency-Website",
+      "description": "Modern high-converting digital software agency web platform with responsive animated UI, service showcases, interactive client flows, and dynamic lead capture. Built with React 19, TypeScript, Tailwind CSS v4, Framer Motion, and Vite.",
       "isFork": false,
       "languages": [
         {
-          "name": "React",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG93aXRvcnkyND30NjcyNzQ=",
-      "name": "Dubizzle",
-      "createdAt": "Oct 2023",
-      "url": "https://www.dubizzle.com/",
-      "description": "Dubizzle is UAE's #1 online Classified website",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "React",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlc2G93aXRvcnkyND30NjcyNzQ=",
-      "name": "Trade Hat",
-      "createdAt": "Sep 2021",
-      "url": "https://app.tradehat.com/",
-      "description": "TradeHat provides backtesting ticker strategies, screening tickers and many other cool trading features",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Vue",
-          "iconifyClass": "logos-vue"
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
         },
         {
           "name": "React",
           "iconifyClass": "logos-react"
         },
         {
-          "name": "nodeJs",
+          "name": "TailwindCSS",
+          "iconifyClass": "logos-tailwindcss-icon"
+        },
+        {
+          "name": "Vite",
+          "iconifyClass": "logos-vitejs"
+        }
+      ]
+    },
+    {
+      "id": "project-chatbot-endpoint",
+      "name": "ChatBot AI API Endpoint & Portal",
+      "createdAt": "2026-08-08",
+      "url": "https://github.com/Asadullah-shz/Pseudo-Chatbot_Endpoint-Portal",
+      "description": "Serverless Vercel chat API endpoint and portal engineered to integrate into any existing chat widget. Performs knowledge base search, TF-IDF keyword tokenization, and multi-format structured response synthesis with MongoDB persistence.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        },
+        {
+          "name": "NodeJS",
           "iconifyClass": "logos-nodejs"
         },
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb-icon"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Vercel",
+          "iconifyClass": "logos-vercel-icon"
         }
       ]
     },
     {
-      "id": "MDEwOlJlc2G93a2XRvcnkyND30NjcyNzQ=",
-      "name": "Unto The One",
-      "createdAt": "March 2023",
-      "url": "https://untotheone.com/",
-      "description": "Unto the One helps you embark on a spiritual journey to seek unity and enlightenment.",
+      "id": "project-devsync",
+      "name": "DevSync File Sync & Backup",
+      "createdAt": "2026-08-01",
+      "url": "https://github.com/asadshzdev",
+      "description": "Cross-platform real-time file synchronization and backup platform with workspace sync, conflict resolution, and transfer monitoring. Designed a TypeScript monorepo integrating Electron desktop client, Node.js/Express backend, CLI, and Docker containerization with Caddy.",
       "isFork": false,
       "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos-docker-icon"
+        },
+        {
+          "name": "Electron",
+          "iconifyClass": "logos-electron"
+        }
+      ]
+    },
+    {
+      "id": "project-payment-platform",
+      "name": "Multi-Tenant Payment System",
+      "createdAt": "2026-07-01",
+      "url": "https://github.com/asadshzdev",
+      "description": "Event-driven multi-tenant payment infrastructure with 12 microservices supporting merchant management, multi-gateway payments, subscriptions, refunds, and HMAC-secured webhooks. Uses RabbitMQ events/RPC, Redis idempotency, and Node.js SDK.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        },
+        {
+          "name": "Redis",
+          "iconifyClass": "logos-redis"
+        },
+        {
+          "name": "RabbitMQ",
+          "iconifyClass": "logos-rabbitmq-icon"
+        }
+      ]
+    },
+    {
+      "id": "project-dayflow-ai",
+      "name": "DayFlow AI Business Assistant",
+      "createdAt": "2026-06-01",
+      "url": "https://github.com/asadshzdev",
+      "description": "Multi-tenant AI business assistant empowering SMEs with WhatsApp automated business insights. Integrated Gemini AI with Google Sheets, Notion, and Airtable for contextual analytics, tenant isolation, audio transcription, and PDF reporting.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        },
         {
           "name": "React",
           "iconifyClass": "logos-react"
         },
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb-icon"
+        }
+      ]
+    },
+    {
+      "id": "project-scaleforge",
+      "name": "ScaleForge B2B Sales Automation",
+      "createdAt": "2026-02-22",
+      "url": "https://github.com/Asadullah-shz/ScaleForge",
+      "description": "High-performance B2B sales automation and CRM platform. Features centralized lead management, automated outreach via decoupled bot workers (Gmail/OAuth2), and persistent state with Upstash Redis. Built with React 19, TypeScript, Tailwind CSS, and Node.js/Express.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "Redis",
+          "iconifyClass": "logos-redis"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos-docker-icon"
         }
       ]
     }

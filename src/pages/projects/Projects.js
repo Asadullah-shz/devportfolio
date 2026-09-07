@@ -17,30 +17,28 @@ class Projects extends Component {
     return (
       <div className="projects-main">
         <Helmet>
-          ‍<title>Projects</title>‍
+          <title>Projects | Asadullah Shahbaz</title>
           <meta
             name="description"
-            content="What's better when Abdullah's project speak for itself and explains his tech skills in a better way"
+            content="Explore backend and full-stack projects by Asadullah Shahbaz, featuring microservices, distributed queues, and AI platforms."
           />
-          <meta name="twitter:site" content="@MAbdullahCh10" />{" "}
-          <meta name="twitter:creator" content="@MAbdullahCh10" />{" "}
-          <meta name="twitter:title" content="Projects " />{" "}
+          <meta name="twitter:title" content="Projects | Asadullah Shahbaz" />
           <meta
             property="twitter:url"
-            content="https://github.com/abdullah-ch"
+            content="https://github.com/asadshzdev"
           />
           <meta
             name="twitter:description"
-            content="What's better when Abdullah's project speak for itself and explains his tech skills in a better way"
-          />{" "}
-          <meta property="og:title" content="Projects " />{" "}
+            content="Explore backend and full-stack projects by Asadullah Shahbaz, featuring microservices, distributed queues, and AI platforms."
+          />
+          <meta property="og:title" content="Projects | Asadullah Shahbaz" />
           <meta
             property="og:description"
-            content="What's better when Abdullah's project speak for itself and explains his tech skills in a better way"
+            content="Explore backend and full-stack projects by Asadullah Shahbaz, featuring microservices, distributed queues, and AI platforms."
           />
-          <meta property="og:url" content="https://github.com/abdullah-ch" />
+          <meta property="og:url" content="https://github.com/asadshzdev" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:type" content="article" />
+          <meta property="og:type" content="website" />
         </Helmet>
         <Header theme={theme} />
         <div className="basic-projects">
@@ -71,14 +69,16 @@ class Projects extends Component {
           </Zoom>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
+          {[...ProjectsData.data]
+            .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+            .map((repo) => {
+              return <GithubRepoCard key={repo.id} repo={repo} theme={theme} />;
+            })}
         </div>
         <Button
           text={"More Projects"}
           className="project-button"
-          href="https://github.com/abdullah-ch"
+          href="https://github.com/asadshzdev"
           newTab={true}
           theme={theme}
         />

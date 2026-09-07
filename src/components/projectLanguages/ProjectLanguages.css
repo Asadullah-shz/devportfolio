@@ -1,22 +1,32 @@
 .dev-icons-languages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
   padding-left: 0;
   list-style: none;
-  font-size: 2rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: right;
+  font-size: 1.6rem;
+  margin: 0;
 }
 
 .software-skill-inline-languages {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
   font-family: "Google Sans Regular";
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.software-skill-inline-languages:hover {
+  transform: translateY(-2px) scale(1.15);
+  opacity: 0.85;
 }
 
 @media (max-width: 768px) {
-  .software-skill-inline-languages {
-    margin-right: 10px;
-    margin-bottom: 0px;
+  .dev-icons-languages {
+    justify-content: flex-start;
+    gap: 10px;
   }
 }

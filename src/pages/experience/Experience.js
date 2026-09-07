@@ -15,30 +15,31 @@ class Experience extends Component {
     return (
       <div className="experience-main">
         <Helmet>
-          ‍<title>Experience </title>‍
+          <title>Experience | Asadullah Shahbaz</title>
           <meta
             name="description"
-            content="Abdullah has worked with many evolving startups as a Full Stack Developer, Designer and a Software Architect. Abdullah have also worked with some well established companies as Software Quality Assurance Trainee."
+            content="Professional engineering experience of Asadullah Shahbaz across backend systems, distributed microservices, BullMQ job queues, and cloud platforms."
           />
-          <meta name="twitter:site" content="@MAbdullahCh10" />{" "}
-          <meta name="twitter:creator" content="@MAbdullahCh10" />{" "}
-          <meta name="twitter:title" content="Experience " />{" "}
+          <meta name="twitter:title" content="Experience | Asadullah Shahbaz" />
           <meta
             property="twitter:url"
-            content="https://abdullahch.dev/experience"
+            content="https://asadsdev.vercel.app/experience"
           />
           <meta
             name="twitter:description"
-            content="Abdullah has worked with many evolving startups as a Full Stack Developer, Designer and a Software Architect. Abdullah have also worked with some well established companies as Software Quality Assurance Trainee..."
-          />{" "}
-          <meta property="og:title" content="Experience " />{" "}
+            content="Professional engineering experience of Asadullah Shahbaz across backend systems, distributed microservices, BullMQ job queues, and cloud platforms."
+          />
+          <meta property="og:title" content="Experience | Asadullah Shahbaz" />
           <meta
             property="og:description"
-            content="Abdullah has worked with many evolving startups as a Full Stack Developer, Designer and a Software Architect. Abdullah have also worked with some well established companies as Software Quality Assurance Trainee..."
+            content="Professional engineering experience of Asadullah Shahbaz across backend systems, distributed microservices, BullMQ job queues, and cloud platforms."
           />
-          <meta property="og:url" content="https://abdullahch.dev/experience" />
+          <meta
+            property="og:url"
+            content="https://asadsdev.vercel.app/experience"
+          />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:type" content="article" />
+          <meta property="og:type" content="website" />
         </Helmet>
         <Header theme={theme} />
         <div className="basic-experience">

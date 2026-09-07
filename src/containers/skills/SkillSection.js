@@ -26,22 +26,22 @@ class SkillSection extends Component {
         {skills.data.map((skill, index) => {
           return (
             <div className="skills-main-div" key={index}>
-              <Fade bottom duration={1000}>
+              <Fade bottom duration={700} distance="20px">
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
 
               <div className="skills-text-div">
-                <Fade bottom duration={1000}>
+                <Fade bottom duration={700} distance="20px">
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade bottom duration={1500}>
+                <Fade bottom duration={750} distance="20px">
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
-                <Fade bottom duration={2000}>
+                <Fade bottom duration={800} distance="20px">
                   <div>
                     {skill.skills.map((skillSentence, key) => {
                       return (
