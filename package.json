@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "abdullahchFolio",
-  "homepage": "https://abdullahch.dev",
+  "name": "asadullahFolio",
+  "homepage": "https://asadsdev.vercel.app",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
