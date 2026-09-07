@@ -13,7 +13,7 @@
 ✔️ Education\
 ✔️ Contact me
 
-Hit the live example, **[click here]https://www.abdullahch.dev/)**
+Hit the live example, **[click here](https://asadsdev.vercel.app)**
 
 ## Clone And Use 📋
 
